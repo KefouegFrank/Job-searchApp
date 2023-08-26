@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderRadius: SIZES.medium,
     height: "100%",
+    
   },
   searchInput: {
     fontFamily: FONT.regular,
@@ -46,11 +47,13 @@ const styles = StyleSheet.create({
     borderRadius: SIZES.medium,
     justifyContent: "center",
     alignItems: "center",
+    padding: 10,
+    tintColor: COLORS.white,
   },
   searchBtnImage: {
-    width: "50%",
-    height: "50%",
-    tintColor: COLORS.white,
+    width: "20%",
+    height: "20%",
+    tintColor: COLORS.tertiary,
   },
   tabsContainer: {
     width: "100%",
